@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+	color: #404040;
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+h1, h2, a {
+	color: #A4A400;
+}
+
+h1, h2 {
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 22pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+.heading {
+	color: #A4A400;
+	background-color:  #F0F0F0;
+}
+
+.main {
+	text-align: center;
+}
+
+.pie-marker-img {
+	list-style-image: url('pie_bullet.png');
+}
+
+.sub {
+	text-align: left;
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.strike-through {
+	text-decoration: line-through;
+}

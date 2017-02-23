@@ -3,11 +3,11 @@ Web Programming Step by Step, Homework 1: Recipe
 This file contains the stylistic information for my pie recipe page.
 */
 
-abbr {
+.abbr {
 	text-decoration: underline;
 }
 
-blockquote {
+.blockquote {
 	background-color: #FFFFA8;
 	font-style: italic;
 }
@@ -19,7 +19,7 @@ body {
 	font-size: 11pt;
 }
 
-bold{
+.bold{
 	font-weight: bold;
 }
 
@@ -43,23 +43,23 @@ h2 {
 	font-weight: normal;
 }
 
-heading {
+.heading {
 	color: #A4A400;
 	background-color:  #F0F0F0;
 }
 
-main {
+.main {
 	text-align: center;
 }
 
-pie-marker-img {
+.pie-marker-img {
 	list-style-image: url('pie_bullet.png');
 }
 
-sub {
+.sub {
 	text-align: left;
 }
 
-strike-through {
+.strike-through {
 	text-decoration: line-through;
 }
