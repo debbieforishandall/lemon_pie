@@ -80,6 +80,10 @@ h2 {
 	background-color:  #F0F0F0;
 }
 
+li.nostyle {
+    list-style-type: none;
+}
+
 .main {
 	text-align: center;
 }
