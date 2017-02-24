@@ -1,27 +1,30 @@
 body {
-	background-color: white;
-	color: #404040;
-	font-family: Georgia, Garamond, serif;
+	background-image: url("pie_sky.jpg");
+	color: #000000;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, serif;
 	font-size: 11pt;
+	height: auto;
 }
 
 .bold{
 	font-weight: bold;
 }
 
-h1, h2, a {
-	color: #A4A400;
+a {
+	color: #ffffff;
+	font-size: 16px;
 }
 
-h1, h2 {
-	background-color: #F0F0F0;
-	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
-	text-decoration: underline;
+h1, h2, h3 {
+	font-family: Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
+	width: 35%;	
+	margin: 0 auto;
+	text-align: center;
 }
 
 h1 {
-	font-size: 22pt;
-	text-align: center;
+	font-size: 26pt;
+	font-weight: light;
 }
 
 h2 {
@@ -29,17 +32,51 @@ h2 {
 	font-weight: normal;
 }
 
-.heading {
-	color: #A4A400;
-	background-color:  #F0F0F0;
+h3 {
+	padding-top: 0px;
 }
 
-.main {
+.heading {
+	color: #ff6347;
+	padding-left:4px;
+}
+
+p {
+	width: 35%;	
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 4%;
+}
+
+.pie-link{
+	background-color: #ff6347;
+	width: 50%;
+	height: 20%;
+	/*margin: 0 auto;*/
+	margin-left: 25%;
+	text-align: center;
+	display: block;
+    	position: fixed;
+    	bottom:0;
+    	margin-bottom: 0;
+}
+
+pre{
+	width: 35%;	
+	margin: 0 auto;
 	text-align: center;
 }
 
-.pie-marker-img {
-	list-style-image: url('pie_bullet.png');
+table{
+	width: 35%;	
+	margin: 0 auto;
+	text-align: center;
+}
+
+.seperator{
+	width: 100%;
+    	background-color: #eceff1;
+	height: 1px;
 }
 
 .sub {
@@ -49,8 +86,15 @@ h2 {
 .subtitle{
 	color: #ffffff;
 	font-size: 14px;
+	width: 20%;
+	padding-left:4px;
 }
 
 .strike-through {
 	text-decoration: line-through;
+}
+
+.vert-align {
+	position: relative;
+	margin-top : 2%;
 }
