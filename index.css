@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
-	background-image: url("pie_sky.jpg");
+	background-image: url("crop_trust.jpg");
 	color: #000000;
 	font-family: "Lucida Sans Unicode", Helvetica, Arial, serif;
 	font-size: 11pt;
@@ -15,29 +17,25 @@ a {
 	font-size: 16px;
 }
 
-h1, h2, h3 {
-	font-family: Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
+h1, h3 {
 	width: 35%;	
 	margin: 0 auto;
 	text-align: center;
 }
 
 h1 {
+	font-family: "Lato", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
 	font-size: 26pt;
 	font-weight: light;
 }
 
-h2 {
-	font-size: 18pt;
-	font-weight: normal;
-}
-
 h3 {
+	font-family: Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
 	padding-top: 0px;
 }
 
 .heading {
-	color: #ff6347;
+	color: #b2b2ff;
 	padding-left:4px;
 }
 
@@ -49,7 +47,7 @@ p {
 }
 
 .pie-link{
-	background-color: #ff6347;
+	background-color: #b2b2ff;
 	width: 50%;
 	height: 20%;
 	/*margin: 0 auto;*/
@@ -59,6 +57,7 @@ p {
     	position: fixed;
     	bottom:0;
     	margin-bottom: 0;
+	border-radius: 25px;
 }
 
 pre{
