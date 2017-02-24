@@ -17,7 +17,7 @@ a {
 	font-size: 16px;
 }
 
-h1, h3 {
+h1, h3, p, pre, table {
 	width: 35%;	
 	margin: 0 auto;
 	text-align: center;
@@ -45,9 +45,6 @@ hr{
 }
 
 p {
-	width: 35%;	
-	margin: 0 auto;
-	text-align: center;
 	padding-top: 4%;
 }
 
@@ -65,31 +62,11 @@ p {
 	border-radius: 25px;
 }
 
-pre{
-	width: 35%;	
-	margin: 0 auto;
-	text-align: center;
-}
-
-table{
-	width: 35%;	
-	margin: 0 auto;
-	text-align: center;
-}
-
-.sub {
-	text-align: left;
-}
-
 .subtitle{
 	color: #ffffff;
 	font-size: 14px;
 	width: 20%;
 	padding-left:4px;
-}
-
-.strike-through {
-	text-decoration: line-through;
 }
 
 .vert-align {

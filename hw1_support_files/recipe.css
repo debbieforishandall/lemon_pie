@@ -27,11 +27,6 @@ This file contains the stylistic information for my pie recipe page.
     visibility: visible;
 }
 
-.blockquote {
-	background-color: #FFFFA8;
-	font-style: italic;
-}
-
 body {
 	background-image: url(hw1_support_files/silverware.jpg);
 	background-repeat: repeat;
@@ -74,27 +69,15 @@ h1 {
 h2 {
 	font-size: 18pt;
 	font-weight: normal;
-}
-
-.heading {
-	color: #A4A400;
-	background-color:  #F0F0F0;
+	text-align: left;
 }
 
 li.no-style {
     list-style-type: none;
 }
 
-.main {
-	text-align: center;
-}
-
 .pie-marker-img {
 	list-style-image: url('pie_bullet.png');
-}
-
-.sub {
-	text-align: left;
 }
 
 .strike-through {
