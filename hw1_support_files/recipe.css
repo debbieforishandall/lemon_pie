@@ -7,13 +7,36 @@ This file contains the stylistic information for my pie recipe page.
 	text-decoration: underline;
 }
 
+/* Tooltip text */
+.abbr .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.abbr:hover .tooltiptext {
+    visibility: visible;
+}
+
 .blockquote {
 	background-color: #FFFFA8;
 	font-style: italic;
 }
 
 body {
-	background-color: white;
+	background-image: url(hw1_support_files/silverware.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	min-height: 35%;
 	color: #404040;
 	font-family: Georgia, Garamond, serif;
 	font-size: 11pt;
@@ -21,6 +44,15 @@ body {
 
 .bold{
 	font-weight: bold;
+}
+
+.comments{
+	background-color:  #FFFFA8;
+	margin-left: 20px;
+}
+
+.comments p{
+	font-style: italic;
 }
 
 h1, h2, a {
