@@ -49,6 +49,7 @@ body {
 .comments{
 	background-color:  #FFFFA8;
 	margin-left: 20px;
+	width: 85%;
 }
 
 .comments p{
